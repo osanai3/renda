@@ -20,6 +20,12 @@
 
 ;;; Commentary:
 
+;; Inspired by smartchr.el, sequential-command.el
+
+;; (global-set-key (kbd "C-a") (renda-pos '(beginning-of-line beginning-of-buffer)))
+;; (global-set-key (kbd "C-e") (renda-pos '(end-of-line end-of-buffer)))
+;; (global-set-key (kbd ">") (renda-str '(">" "->" "=>")))
+
 ;;; Code:
 
 (defun renda-cycle-nth (n list)
